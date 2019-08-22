@@ -16,65 +16,31 @@
 
     <link rel="stylesheet" type="text/css" href="style.css" />
 
+    <!-- this is the sound file for the background. the internet said using the
+     audio html tag is the way to do this now but it wont work with midi file
+     and i had no success in coverting it to a playable mp3.
+     changing it would most likely lead to support on more browsers.
+     -jeremy -->
+
+     <audio autoplay>
+      <source src="music/hm.mp3" type="audio/mpeg">
+    </audio>
+
+    <BGSOUND SRC="music\hm.mid">
+
+
     <title>Paranormal Inc.</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
-    <header>
-      <nav>
-        <div class="home-holder">
-          <img class="logo-img" src="./img/logo.png" alt="" />
-          <a class="logo" href="index.html"
-            ><h2 class="title">Paranormal Inc.</h2></a
-          >
-        </div>
-        <a
-          class="social"
-          href="https://www.youtube.com/channel/UCQt2wSwMiALgz8pIbXfsITA/f"
-          target="_blank"
-          ><i class="fab fa-youtube"></i
-        ></a>
-        <a
-          class="social"
-          href="https://www.facebook.com/groups/420092858164075"
-          target="_blank"
-          ><i class="fab fa-facebook-square"></i
-        ></a>
-        <ul class="nav-links">
-          <li>
-            <a href="calendar.html">Calendar</a>
-          </li>
-          <li>
-            <a href="friends.html">Friends</a>
-          </li>
-          <li>
-            <a href="equipment.html">Equipment</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact Us</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-        </ul>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-      </nav>
-    </header>
-    <div class="container">
-      <div class="member">
-        <img src="./img/logo.png" alt="" class="logos" />
-      </div>
-      <div class="member">
-        <img src="./img/pilogo.png" alt="" class="logos" />
-      </div>
+    <div class="landing">
+      <img src="./img/logo.png" alt="" class="logos" />
+
+      <a  href="home.html"><h1 id="enter">Click to enter the Paranormal</h1></a>
     </div>
   </body>
 
-  <script src="app.js"></script>
+  
   <script src="https://kit.fontawesome.com/6806e01ef0.js"></script>
 </html>
