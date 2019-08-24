@@ -23,7 +23,6 @@ body {
 }
 
 .lan-container {
-  
   display: flex;
   height: 100%;
   width: 100%;
@@ -31,7 +30,7 @@ body {
   justify-content: center;
 }
 
-#enter{
+#enter {
   text-align: center;
 }
 
@@ -64,7 +63,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   padding: 40px;
-  margin: 5%;
+  margin: 2%;
   width: 60%;
 }
 
@@ -73,15 +72,15 @@ h2 {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
 
   height: 60%;
   width: 35%;
 }
 
-#pi-logo{
-  width:90%;
-  height:90%;
+#pi-logo {
+  width: 90%;
+  height: 90%;
   margin: 5%;
 }
 
@@ -197,8 +196,6 @@ a:visited {
   margin: 5px;
 }
 
-
-
 .member {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 20px;
@@ -273,9 +270,7 @@ a:visited {
   display: flex;
 }
 
-
 .bio {
-  
   width: 90%;
   text-align: center;
 }
@@ -300,19 +295,15 @@ a:visited {
 }
 
 @media (max-width: 820px) {
-
-  .bio{
+  .bio {
     font-size: 10px;
   }
 
   .home {
-    
-  
     max-height: 60%;
     width: 70%;
   }
 
-  
   .item {
     width: 80%;
   }
