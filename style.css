@@ -79,6 +79,10 @@ h2 {
   width: 35%;
 }
 
+#light-logo {
+  height: 80%;
+}
+
 #pi-logo {
   width: 90%;
   height: 90%;
@@ -96,10 +100,7 @@ h2 {
   width: 40%;
 }
 
-.logos {
-  max-width: 90%;
-  max-height: 90%;
-}
+
 
 .contact {
   width: 90%;
