@@ -80,8 +80,8 @@ h2 {
 }
 
 #light-logo {
-  height: 80%;
-  max-width: 80%;
+  height: 40%;
+  width: 40%;
 }
 
 #pi-logo {
@@ -296,6 +296,16 @@ a:visited {
 }
 
 @media (max-width: 820px) {
+  #light-logo {
+    width: 60%;
+    height: 60%;
+  }
+
+  .landing {
+    width: 80%;
+    height: 40%;
+  }
+
   .bio {
     font-size: 10px;
   }
